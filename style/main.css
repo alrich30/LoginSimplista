@@ -1,0 +1,13 @@
+:root{
+    --purple: #764abc;
+    --white: #f8f9fb;
+    --black: rgba(10, 20, 32, 0.658);
+    --black2: rgba(94, 108, 132, 0.842);
+    --blue: rgba(0, 60, 255, 0.555);
+    --darker-blue: rgba(0, 60, 255, 0.829);
+}
+
+body{
+    background-color: var(--black);
+}
+
