@@ -2,41 +2,44 @@
 <html>
 
 <head>
-    <title>
-        login Simplista
-    </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Kanit:ital,wght@1,200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style/main.css">
-    <link rel="stylesheet" type="text/css" href="style/login.css">
+  <title>
+    login Simplista
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Kanit:ital,wght@1,200&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style/main.css">
+  <link rel="stylesheet" type="text/css" href="style/login.css">
 </head>
+
 <body>
-        <div id="login">
-            <form id="miFormulario">
-                <h2 class="main-text texto-centrado">Welcome Developer!</h2>
-                <p class="main-text">Are you ready to take you coding to another level?</p>
-                <div class="campo">
-                        <input class="user-input" placeholder="Username" >
-                        <span class="validation-error-user">Ingrese un nombre de usuario existente</span>
-                </div>
-                <div class="campo">
-                        <input class="password-input" type="password" placeholder="Password">
-                        <span class="validation-error-password">Contraseña Incorrecta, intente de nuevo</span>
-                </div>
-                <p><a class="new-password-link link-text" href="#">Forgot your password?</a></p>    
+  <div id="login">
+    <form id="miFormulario">
+      <h2 class="main-text texto-centrado">Welcome Developer!</h2>
+      <p class="main-text">Are you ready to take you coding to another level?</p>
+      <div class="campo">
+        <input class="user-input" placeholder="Username">
+        <span class="validation-error-user">Ingrese un nombre de usuario existente</span>
+      </div>
+      <div class="campo">
+        <input class="password-input" type="password" placeholder="Password">
+        <span class="validation-error-password">Contraseña Incorrecta, intente de nuevo</span>
+      </div>
+      <p><a class="new-password-link link-text" href="#">Forgot your password?</a></p>
 
-                <button id="button" class="texto-centrado" type="submit">Log in</button>
+      <button id="button" class="texto-centrado">Log in</button>
 
-                <p class="main-text">Dont have account?<a class="link-text" href="#">  Register Now</a></p>
-            </form>
-        </div>
-        
-        <script src="js/formularyButton.js"></script>
-        
+      <p class="main-text">Dont have account?<a class="link-text" href="#"> Register Now</a></p>
+    </form>
+  </div>
+
+  <script src="js/formularyButton.js"></script>
+
 </body>
+
 </html>
