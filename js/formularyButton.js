@@ -34,6 +34,6 @@ document.getElementById('button').addEventListener('click', function (event) {
   } else if (password == currentPasswordInput && correctUser == true) { //Indicador de que el usuario se loggeo correctamente
     validationErrorPassword.style.transform = 'translateY(-25px)';
     validationErrorPassword.style.opacity = '0';
-    alert('Bienvenido TurboBimbolo415!')
+    alert('Bienvenido!!')
   }
 });
